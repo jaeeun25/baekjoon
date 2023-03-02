@@ -36,5 +36,6 @@ public class Main25206 {
 		
 		System.out.println(String.format("%.6f", sum/(score_sum)));
 		
+		br.close();
 	}
 }
