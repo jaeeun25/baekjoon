@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 
 public class Main2775 {
 	// 백준 2775번: 부녀회장이 될테야
+	// 재귀함수 사용도 가능 -> 시간이 오래 걸림
 	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
