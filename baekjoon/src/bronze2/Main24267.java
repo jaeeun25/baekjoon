@@ -14,6 +14,7 @@ public class Main24267 {
 		
 		System.out.println((n*(n-2)*(n-1))/6);
 		System.out.println(3);
+		
 		br.close();
 	}
 }
