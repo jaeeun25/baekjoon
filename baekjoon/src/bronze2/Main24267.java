@@ -18,8 +18,6 @@ public class Main24267 {
 	}
 }
 
-
-
 /*
  n=7
 i=1 
