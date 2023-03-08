@@ -20,8 +20,8 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			int j = 2, x = 0, y = 0;
 			int min = Integer.MAX_VALUE;
 			while(true) {
-				if(n/2 <= j-2) break;		
-				else if(!primeArr[j] && !primeArr[Math.abs(n-j)]) {				// j가 소수 && n-j가 소수인 경우
+				if(n/2 <= j-2) break;		// n/2이상은 앞 뒤 수가 바뀐채로 반복 되기때문에 n/2까지만 반복한다.
+				else if(!primeArr[j] && !primeArr[Math.abs(n-j)]) {		// j가 소수 && n-j가 소수인 경우
 					if(min>Math.abs(n-2*j)) {	// 두 소수의 차가 min보다 작은 경우
 						min = n-2*j;
 						x = j;

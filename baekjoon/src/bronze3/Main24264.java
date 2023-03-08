@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Main24264 {
 	// 백준 24264번: 알고리즘 수업 - 알고리즘의 수행 시간 3
-	// int로 받으면 틀림. n*n 값이 올바르지않음.
+	// int로 받으면 n*n 값이 int가 표현할 수 있는 범위를 넘어가기 때문에 long형으로 받아야 한다.
 	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
