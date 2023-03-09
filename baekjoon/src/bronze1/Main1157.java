@@ -1,8 +1,8 @@
 package bronze1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class Main1157 {
 	// 백준 1157번: 단어 공부

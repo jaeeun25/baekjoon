@@ -8,7 +8,7 @@ public class Main9020 {
 	// 백준 9020번: 골드바흐의 추측
 	
 	public static void main(String[] args) throws IOException{
-BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int t = Integer.parseInt(br.readLine());
 		boolean[] primeArr = new boolean[10001];

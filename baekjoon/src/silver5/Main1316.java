@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 public class Main1316 {
 	// 백준 1316번: 그룹 단어 체커
@@ -15,7 +14,6 @@ public class Main1316 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
-		StringTokenizer st; 
 		int idx = 0, prev = 0, cnt = 0;
 		String s;
 		

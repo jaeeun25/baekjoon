@@ -15,7 +15,6 @@ public class Main2839 {
 		int cnt = -1, i = 0;
 		
 		while(true) {
-
 			if(suga < 0){
 				break;
 			}
