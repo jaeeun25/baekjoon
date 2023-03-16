@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.OptionalInt;
 
 public class Main2108 {
 	// 백준 2108번: 통계학
@@ -24,7 +23,6 @@ public class Main2108 {
 			arr[i] = num;
 			cnt[num+4000]++;
 		}
-		
 
 		// 산술평균
 		String str = String.format("%.0f", (double)Arrays.stream(arr).sum()/n);
