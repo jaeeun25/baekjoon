@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-/*
+/* 클래스 이용해 2차원배열이 아닌 1차원배열로 풀어봄
 class Person{
 	int kg;
 	int cm;
