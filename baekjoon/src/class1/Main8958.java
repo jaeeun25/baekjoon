@@ -1,4 +1,4 @@
-package bronze2;
+package class1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
