@@ -1,4 +1,4 @@
-package class2;
+package 조합론;
 
 import java.io.BufferedReader;
 import java.io.IOException;
