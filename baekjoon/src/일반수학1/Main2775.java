@@ -1,4 +1,4 @@
-package 기본수학1;
+package 일반수학1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
