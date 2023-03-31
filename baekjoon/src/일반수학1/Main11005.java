@@ -10,7 +10,7 @@ public class Main11005 {
 	// 약간의 메모리차이 있고 시간은 동일했음
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		StringBuilder sb = new StringBuilder();
 		
 		int n = Integer.parseInt(st.nextToken());
