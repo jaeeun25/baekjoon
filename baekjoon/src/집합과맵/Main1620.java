@@ -15,8 +15,8 @@ public class Main1620 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringBuilder sb = new StringBuilder();
-		HashMap<String, Integer> poketmon_no = new HashMap<String, Integer>();
-		HashMap<Integer, String> poketmon_name = new HashMap<Integer, String>();
+		HashMap<String, Integer> poketmon_no = new HashMap<String, Integer>();			// 키가 포켓몬 이름
+		HashMap<Integer, String> poketmon_name = new HashMap<Integer, String>();		// 키가 포켓몬 넘버
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
 		int n = Integer.parseInt(st.nextToken());	// 도감 수
