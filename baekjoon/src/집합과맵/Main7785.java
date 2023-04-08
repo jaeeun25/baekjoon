@@ -10,6 +10,8 @@ import java.util.StringTokenizer;
 
 public class Main7785 {
 	// 백준 7785번: 회사에 있는 사람
+	// HashSet 이용, 그 후 ArrayList에 저장하고 Colsections.sort() 이용해 정렬하고 역순으로 출력!
+	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

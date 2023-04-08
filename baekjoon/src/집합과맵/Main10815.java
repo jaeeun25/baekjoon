@@ -43,7 +43,7 @@ public class Main10815 {
 		
 		br.close();
 		
-		/* 내 풀이법(이분탐색을 이용하지않음
+		/* 내 풀이법(이분탐색을 이용하지않음)
 		int n = Integer.parseInt(br.readLine());
 		st = new StringTokenizer(br.readLine(), " ");
 		

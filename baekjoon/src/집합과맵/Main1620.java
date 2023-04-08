@@ -10,7 +10,8 @@ import java.util.StringTokenizer;
 
 public class Main1620 {
 	// 백준 1620번: 나는야 포켓몬 마스터 이다솜
-	
+	// 한 해쉬맵에 (숫자,이름) (이름,숫자) 넣어서 풀 수 있음 -> 굳이 두개를 사용하지 않아도 된다!
+	// 아니면 해쉬맵엔 (이름, 숫자), String 배열 선언해서 이름 넣고 인덱스(숫자)로 찾는 방법도 가능
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
