@@ -6,23 +6,16 @@ import java.io.InputStreamReader;
 
 public class Main13909 {
 	// 백준 13909번: 창문 닫기
+	// 열린 창문은 약수의 개수가 홀수인 수 -> 제곱근
+	// 그러므로 n이 제곱근일 때 열려있는 창문 개수가 증가한다.
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());
-		boolean[] window = new boolean[n];	// 0번은 무의미
-			
-		int j=1, idx=0;
-		for(int i=2; i<=n; i++) {
-			idx = i*(j++);
-			while(idx <= n) {
-				window[idx-1] = !window[idx-1] ? true : false;
-			}	
-		}
+		int cnt = 1;	// 첫번째 창문은 항상 열려있음
 		
-		int cnt=0;
-		for(boolean b : window) {
-			if(!b) cnt++; 
+		for(int i=2; i*i<=n; i++) {
+			cnt++;
 		}
 		
 		System.out.println(cnt);
